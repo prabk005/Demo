@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <base href="/index.html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <title>Decipher Graphs</title>
+    <link rel="stylesheet" href="app.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Canvas.js library -->
+    <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <!-- SQL Library -->
+    <script src="http://alasql.org/console/alasql.min.js"></script>
+    <!-- Bootstrap Library -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- SPELLS -->
+    <!-- load angular and angular route via CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+
+</head>
+
+<body >
+
+<div class="row padding15" ng-controller="mainController">
+  <div id="timeSeries" class="col-sm-5 chartStyle"></div>
+  <div id="notional" class="col-sm-5 chartStyle"></div>
+  <div id="account" class="col-sm-5 chartStyle"></div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

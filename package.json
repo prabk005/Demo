@@ -1,0 +1,13 @@
+{
+  "name": "ServeStaticContent",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular-chart.js": "^1.0.0-alpha6",
+    "body-parser": "~1.5.2",
+    "chart.js": "^2.0.2",
+    "express": "3.x",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2"
+  }
+}
