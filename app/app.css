@@ -5,9 +5,13 @@
 
 .chartStyle {
 	height: 300px;
-	margin: 25px;
+	margin: 25px 50px 25px 0px;
 }
 
 .canvasjs-chart-canvas {
 	margin: 20px;
+}
+
+.row {
+	margin: 0 !important;
 }
